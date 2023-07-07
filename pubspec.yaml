@@ -1,0 +1,53 @@
+name: untitled
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/image/Oval.png
+    - assets/image/Oval2.png
+    - assets/image/Action 1.png
+    - assets/image/Action 2.png
+    - assets/image/Action 3.png
+    - assets/image/Action 4.png
+    - assets/image/Icon.png
+    - assets/image/Icon2.png
+    - assets/image/Rectangle.png
+    - assets/image/Chat.png
+    - assets/image/Change Camera.png
+    - assets/image/Effects.png
+    - assets/image/Microphone.png
+    - assets/image/Hang up.png
+    - assets/image/Sound.png
+    - assets/image/Rectangle2.png
+
+
+  fonts:
+    - family: Display
+      fonts:
+        - asset: assets/fonts/WixMadeforDisplay-Bold.ttf
+
+
+    - family: Display2
+      fonts:
+        - asset: assets/fonts/WixMadeforDisplay-SemiBold.ttf
